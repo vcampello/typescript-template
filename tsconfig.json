@@ -1,0 +1,14 @@
+{
+  "extends": "@tsconfig/node22/tsconfig.json",
+  "compilerOptions": {
+    // extra safety nets
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+
+    "verbatimModuleSyntax": true,
+    // don't compile any files, this config is mostly to setup the lsp
+    "noEmit": true
+  },
+  "exclude": ["./node_modules/", "./dist/"]
+}
