@@ -8,3 +8,4 @@ A simple typescript project template.
 - vitest for test
 - prettier
 - eslint
+- mise (tooling and scripting)
