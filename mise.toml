@@ -1,5 +1,11 @@
 [tools]
 node = "24"
+trivy = "latest"
 
 [env]
 _.path = ['./node_modules/.bin']
+
+[tasks.scan]
+description = "Scan for vulnerabilities"
+dir = "{{ config_root }}"
+run = """trivy repo ."""
