@@ -1,11 +1,10 @@
 # TypeScript template
 
-A simple typescript project template.
+A simple typescript project template
 
-## Features
-
-- typescript (duh)
-- vitest for test
-- prettier
-- eslint
-- mise (tooling and scripting)
+| Area                      | Tool                          |
+| ------------------------- | ----------------------------- |
+| Tests                     | [vitest](https://vitest.dev/) |
+| Formatter                 | [Biome](https://biomejs.dev/) |
+| Linting                   | [Biome](https://biomejs.dev/) |
+| Tooling and orchestration | [mise](https://mise.jdx.dev/) |
