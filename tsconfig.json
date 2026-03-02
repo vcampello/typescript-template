@@ -9,7 +9,10 @@
     "verbatimModuleSyntax": true,
     // don't compile any files, this config is mostly to setup the lsp
     "noEmit": true,
-    "lib": ["DOM"]
+    "lib": ["DOM"],
+
+    // allow running with just node
+    "erasableSyntaxOnly": true
   },
   "exclude": ["./node_modules/", "./dist/"]
 }

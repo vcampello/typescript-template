@@ -1,6 +1,6 @@
 # TypeScript template
 
-A simple typescript project template
+A simple typescript project template with support for Node.js type stripping.
 
 | Area                      | Tool                          |
 | ------------------------- | ----------------------------- |

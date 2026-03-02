@@ -1,1 +1,5 @@
-console.log("Hello world!");
+function greet(msg: string): void {
+    console.log(msg);
+}
+
+greet("Hello world!");
