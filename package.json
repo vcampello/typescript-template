@@ -13,7 +13,7 @@
   "engines": {
     "node": "^24"
   },
-  "license": "ISC",
+  "license": "MIT",
   "author": "Victor Campello",
   "type": "module",
   "main": "dist/index.js",
@@ -27,6 +27,7 @@
     "coverage": "vitest run --coverage",
     "prebuild": "rimraf -v -rf ./dist",
     "build": "tsc -p ./tsconfig.build.json",
+    "dev": "node --watch --experimental-strip-types src/index.ts",
     "lint": "biome check",
     "lint:fix": "biome check --fix",
     "scan": "mise run scan",
