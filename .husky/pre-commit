@@ -1,3 +1,6 @@
+# the usual stuff
 npm run lint
 npm test
+
+# you would be surprised by how many config issues this can catch
 npm run build
