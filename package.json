@@ -16,7 +16,11 @@
   "license": "ISC",
   "author": "Victor Campello",
   "type": "module",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "vitest --run",
     "test:watch": "vitest",
